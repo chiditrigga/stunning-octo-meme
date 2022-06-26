@@ -1,5 +1,7 @@
 from django.urls import path
-from . import views
+
+from blog import views
+from .views import PostListView,PostCreateView,PostDeleteView,PostUpdateView,PostDetailView
 
 app_name = "blog"
 
